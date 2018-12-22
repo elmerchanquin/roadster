@@ -1,0 +1,72 @@
+* {
+    font-family: 'Montserrat';
+}
+html {
+    height: 100%;
+}
+.hero {
+    background-image: url("../media/images/tesla-piso-negro.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(10, 10%) / repeat(20, 5%);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background: rgb(167, 4, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-wh {
+    color: white;
+}
+body {
+    background: black;
+    margin: 0px;
+    height: 100%;
+    position: relative;
+}
+.f-tesla {
+    font-family: 'TESLA';
+    font-weight: 100;
+    line-height: 0;
+}
+li {
+    padding: 0px;
+}
+.hero-h2 {
+    font-size: 48px;
+}
+.title-hero {
+    text-align: center;
+    padding-top: 10px;
+    grid-column: 7 / 14;
+    grid-row: 4 / 8;
+}
+.nav {
+    background: rgb(167, 4, 4);
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+.menu li {
+
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+}
+.title-hero span{
+    font-size: 36px;
+}
